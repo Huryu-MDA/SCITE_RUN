@@ -31,9 +31,11 @@ N=$(cat NxM_${prefix_timeID} | cut -f 1)
 M=$(cat NxM_${prefix_timeID} | cut -f 2)
 
 
-CMD_main="scite -i dataHou18.csv -n 18 -m 58 -r 1 -l 900000 -fd 6.04e-5 -ad 0.21545 0.21545 -cc 1.299164e-05 1> scite_stdout 2> scite_stderr"
-CMD_rem_tempfile="rm "
+CMD_main="scite -i processed_${prefix_timeID}.tsv -n ${N} -m ${M} -r 1 -l 900000 -fd 6.04e-5 -ad 0.21545 0.21545 -cc 1.299164e-05 1> scite_stdout 2> scite_stderr"
+#CMD_rem_tempfile="rm processed_${prefix_timeID}.tsv"
 
-BsubM "${CMD_main} && ${CMD_rem_tempfile}" SCITE_RUN
+${CMD_main}
+#BsubM "${CMD_main}" SCITE_RUN
+#BsubM "${CMD_main} && ${CMD_rem_tempfile}" SCITE_RUN
 
 cd ..
