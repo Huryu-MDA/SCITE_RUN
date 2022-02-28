@@ -20,15 +20,20 @@ cd ${prefix_timeID}
 module -q load python
 
 #   This will return 
-#1. processed_nColNum_-mSampleNum_${prefix_timeID}_XXXXX.tsv (TSV file)
-#2. MutationList: mutList_${prefix_timeID}_XXXXX.tsv
-#3. SampleNameList: sampleList_${prefix_timeID}_XXXXX.tsv
+#1. processed_${prefix_timeID}.tsv (TSV file)
+#2. MutationList: mutList_${prefix_timeID}.tsv
+#3. SampleNameList: sampleList_${prefix_timeID}.tsv
+#4. NxM (tsv): "NxM_"${prefix_timeID}
 
-tsv_process_mtx_toSCITE.py ${target_tsv} ${prefix}
+tsv_process_mtx_toSCITE.py ${target_tsv} ${prefix_timeID}
+
+N=$(cat NxM_${prefix_timeID} | cut -f 1)
+M=$(cat NxM_${prefix_timeID} | cut -f 2)
 
 
+CMD_main="scite -i dataHou18.csv -n 18 -m 58 -r 1 -l 900000 -fd 6.04e-5 -ad 0.21545 0.21545 -cc 1.299164e-05 1> scite_stdout 2> scite_stderr"
+CMD_rem_tempfile="rm "
 
-
-
+BsubM "${CMD_main} && ${CMD_rem_tempfile}" SCITE_RUN
 
 cd ..
