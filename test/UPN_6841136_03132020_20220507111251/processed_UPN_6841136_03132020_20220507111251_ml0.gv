@@ -1,0 +1,5 @@
+digraph G {
+node [color=deeppink4, style=filled, fontcolor=white];
+Root -> IDH1;
+Root -> TP53;
+}

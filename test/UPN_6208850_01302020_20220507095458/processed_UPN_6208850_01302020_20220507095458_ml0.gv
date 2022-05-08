@@ -1,0 +1,7 @@
+digraph G {
+node [color=deeppink4, style=filled, fontcolor=white];
+IDH1 -> NRAS;
+Root -> IDH1;
+IDH1 -> NPM1;
+NPM1 -> KRAS;
+}

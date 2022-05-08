@@ -1,0 +1,310 @@
+Sender: LSF System <lsfadmin@cdragon348.cm.cluster>
+Subject: Job 14976558: <tsvTK_to_SCITE.sh data/UPN_6208850_01302020.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_table.txt> in cluster <seadragon_cluster> Done
+
+Job <tsvTK_to_SCITE.sh data/UPN_6208850_01302020.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_table.txt> was submitted from host <ldragon2.cm.cluster> by user <huryu> in cluster <seadragon_cluster> at Fri May  6 23:57:32 2022
+Job was executed on host(s) <cdragon348.cm.cluster>, in queue <medium>, as user <huryu> in cluster <seadragon_cluster> at Sat May  7 09:54:57 2022
+</home/huryu> was used as the home directory.
+</rsrch3/home/leuk-rsrch/huryu/Dir_ProcessForOtherMember/Dr_Tanaka/SCITE_RUN_For_Tapestri/Curtis_Data/Feb_28_2022/test_dir> was used as the working directory.
+Started at Sat May  7 09:54:57 2022
+Terminated at Sat May  7 10:04:30 2022
+Results reported at Sat May  7 10:04:30 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+tsvTK_to_SCITE.sh data/UPN_6208850_01302020.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_table.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   565.87 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     150.00 GB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                17
+    Run time :                                   572 sec.
+    Turnaround time :                            36418 sec.
+
+The output (if any) follows:
+
+TSV file name: UPN_6208850_01302020.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_table.txt
+prefix_timeID: UPN_6208850_01302020_20220507095458
+
+Python part
+Main code
+At mcmc repetition 1/1, step 0: best tree score -1.79769e+308 and best beta 0.4309 and best overall score -1.79769e+308
+At mcmc repetition 1/1, step 100000: best tree score -469.925 and best beta 0.4309 and best overall score -469.925
+At mcmc repetition 1/1, step 200000: best tree score -469.925 and best beta 0.4309 and best overall score -469.925
+At mcmc repetition 1/1, step 300000: best tree score -469.925 and best beta 0.4309 and best overall score -469.925
+At mcmc repetition 1/1, step 400000: best tree score -469.925 and best beta 0.4309 and best overall score -469.925
+At mcmc repetition 1/1, step 500000: best tree score -469.925 and best beta 0.4309 and best overall score -469.925
+At mcmc repetition 1/1, step 600000: best tree score -469.925 and best beta 0.4309 and best overall score -469.925
+At mcmc repetition 1/1, step 700000: best tree score -469.925 and best beta 0.4309 and best overall score -469.925
+At mcmc repetition 1/1, step 800000: best tree score -469.925 and best beta 0.4309 and best overall score -469.925
+best log score for tree:	-469.9250751165896
+#optimal steps after burn-in:	0
+total #steps after burn-in:	675000
+%optimal steps after burn-in:	0
+samples from posterior written to: processed_UPN_6208850_01302020_20220507095458.samples
+1 opt trees 
+Time elapsed: 560760 ms
+
+
+PS:
+
+Read file <SCITE_RUN_RENEWED_err.log> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@cdragon325.cm.cluster>
+Subject: Job 14976559: <tsvTK_to_SCITE.sh data/UPN_6208850_10072019.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsvKT_Table.txt> in cluster <seadragon_cluster> Done
+
+Job <tsvTK_to_SCITE.sh data/UPN_6208850_10072019.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsvKT_Table.txt> was submitted from host <ldragon2.cm.cluster> by user <huryu> in cluster <seadragon_cluster> at Fri May  6 23:57:33 2022
+Job was executed on host(s) <cdragon325.cm.cluster>, in queue <medium>, as user <huryu> in cluster <seadragon_cluster> at Sat May  7 10:12:59 2022
+</home/huryu> was used as the home directory.
+</rsrch3/home/leuk-rsrch/huryu/Dir_ProcessForOtherMember/Dr_Tanaka/SCITE_RUN_For_Tapestri/Curtis_Data/Feb_28_2022/test_dir> was used as the working directory.
+Started at Sat May  7 10:12:59 2022
+Terminated at Sat May  7 10:46:02 2022
+Results reported at Sat May  7 10:46:02 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+tsvTK_to_SCITE.sh data/UPN_6208850_10072019.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsvKT_Table.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1974.62 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     150.00 GB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                17
+    Run time :                                   1983 sec.
+    Turnaround time :                            38909 sec.
+
+The output (if any) follows:
+
+TSV file name: UPN_6208850_10072019.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsvKT_Table.txt
+prefix_timeID: UPN_6208850_10072019_20220507101259
+
+Python part
+Main code
+At mcmc repetition 1/1, step 0: best tree score -1.79769e+308 and best beta 0.4309 and best overall score -1.79769e+308
+At mcmc repetition 1/1, step 100000: best tree score -4268.16 and best beta 0.4309 and best overall score -4268.16
+At mcmc repetition 1/1, step 200000: best tree score -4268.16 and best beta 0.4309 and best overall score -4268.16
+At mcmc repetition 1/1, step 300000: best tree score -4268.16 and best beta 0.4309 and best overall score -4268.16
+At mcmc repetition 1/1, step 400000: best tree score -4268.16 and best beta 0.4309 and best overall score -4268.16
+At mcmc repetition 1/1, step 500000: best tree score -4268.16 and best beta 0.4309 and best overall score -4268.16
+At mcmc repetition 1/1, step 600000: best tree score -4268.16 and best beta 0.4309 and best overall score -4268.16
+At mcmc repetition 1/1, step 700000: best tree score -4268.16 and best beta 0.4309 and best overall score -4268.16
+At mcmc repetition 1/1, step 800000: best tree score -4268.16 and best beta 0.4309 and best overall score -4268.16
+best log score for tree:	-4268.1638041792457
+#optimal steps after burn-in:	675000
+total #steps after burn-in:	675000
+%optimal steps after burn-in:	1
+samples from posterior written to: processed_UPN_6208850_10072019_20220507101259.samples
+1 opt trees 
+Time elapsed: 1968420 ms
+
+
+PS:
+
+Read file <SCITE_RUN_RENEWED_err.log> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@cdragon325.cm.cluster>
+Subject: Job 14976560: <tsvTK_to_SCITE.sh data/UPN_6208850_11062029.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_Table.txt> in cluster <seadragon_cluster> Done
+
+Job <tsvTK_to_SCITE.sh data/UPN_6208850_11062029.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_Table.txt> was submitted from host <ldragon2.cm.cluster> by user <huryu> in cluster <seadragon_cluster> at Fri May  6 23:57:33 2022
+Job was executed on host(s) <cdragon325.cm.cluster>, in queue <medium>, as user <huryu> in cluster <seadragon_cluster> at Sat May  7 10:46:35 2022
+</home/huryu> was used as the home directory.
+</rsrch3/home/leuk-rsrch/huryu/Dir_ProcessForOtherMember/Dr_Tanaka/SCITE_RUN_For_Tapestri/Curtis_Data/Feb_28_2022/test_dir> was used as the working directory.
+Started at Sat May  7 10:46:35 2022
+Terminated at Sat May  7 10:53:21 2022
+Results reported at Sat May  7 10:53:21 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+tsvTK_to_SCITE.sh data/UPN_6208850_11062029.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_Table.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   403.11 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     150.00 GB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   405 sec.
+    Turnaround time :                            39348 sec.
+
+The output (if any) follows:
+
+TSV file name: UPN_6208850_11062029.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_Table.txt
+prefix_timeID: UPN_6208850_11062029_20220507104635
+
+Python part
+Main code
+At mcmc repetition 1/1, step 0: best tree score -1.79769e+308 and best beta 0.4309 and best overall score -1.79769e+308
+At mcmc repetition 1/1, step 100000: best tree score -449.715 and best beta 0.4309 and best overall score -449.715
+At mcmc repetition 1/1, step 200000: best tree score -449.715 and best beta 0.4309 and best overall score -449.715
+At mcmc repetition 1/1, step 300000: best tree score -449.715 and best beta 0.4309 and best overall score -449.715
+At mcmc repetition 1/1, step 400000: best tree score -449.715 and best beta 0.4309 and best overall score -449.715
+At mcmc repetition 1/1, step 500000: best tree score -449.715 and best beta 0.4309 and best overall score -449.715
+At mcmc repetition 1/1, step 600000: best tree score -449.715 and best beta 0.4309 and best overall score -449.715
+At mcmc repetition 1/1, step 700000: best tree score -449.715 and best beta 0.4309 and best overall score -449.715
+At mcmc repetition 1/1, step 800000: best tree score -449.715 and best beta 0.4309 and best overall score -449.715
+best log score for tree:	-449.71479987109626
+#optimal steps after burn-in:	0
+total #steps after burn-in:	675000
+%optimal steps after burn-in:	0
+samples from posterior written to: processed_UPN_6208850_11062029_20220507104635.samples
+1 opt trees 
+Time elapsed: 398690 ms
+
+
+PS:
+
+Read file <SCITE_RUN_RENEWED_err.log> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@cdragon390.cm.cluster>
+Subject: Job 14976561: <tsvTK_to_SCITE.sh data/UPN_6841136_03132020.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_Table.txt> in cluster <seadragon_cluster> Done
+
+Job <tsvTK_to_SCITE.sh data/UPN_6841136_03132020.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_Table.txt> was submitted from host <ldragon2.cm.cluster> by user <huryu> in cluster <seadragon_cluster> at Fri May  6 23:57:33 2022
+Job was executed on host(s) <cdragon390.cm.cluster>, in queue <medium>, as user <huryu> in cluster <seadragon_cluster> at Sat May  7 11:12:51 2022
+</home/huryu> was used as the home directory.
+</rsrch3/home/leuk-rsrch/huryu/Dir_ProcessForOtherMember/Dr_Tanaka/SCITE_RUN_For_Tapestri/Curtis_Data/Feb_28_2022/test_dir> was used as the working directory.
+Started at Sat May  7 11:12:51 2022
+Terminated at Sat May  7 11:20:13 2022
+Results reported at Sat May  7 11:20:13 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+tsvTK_to_SCITE.sh data/UPN_6841136_03132020.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_Table.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   434.83 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     150.00 GB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   443 sec.
+    Turnaround time :                            40960 sec.
+
+The output (if any) follows:
+
+TSV file name: UPN_6841136_03132020.allvariants.genotype_modified.multicores.anno.filt.driver.header.tsv_KT_Table.txt
+prefix_timeID: UPN_6841136_03132020_20220507111251
+
+Python part
+Main code
+At mcmc repetition 1/1, step 0: best tree score -1.79769e+308 and best beta 0.4309 and best overall score -1.79769e+308
+At mcmc repetition 1/1, step 100000: best tree score -534.303 and best beta 0.4309 and best overall score -534.303
+At mcmc repetition 1/1, step 200000: best tree score -534.303 and best beta 0.4309 and best overall score -534.303
+At mcmc repetition 1/1, step 300000: best tree score -534.303 and best beta 0.4309 and best overall score -534.303
+At mcmc repetition 1/1, step 400000: best tree score -534.303 and best beta 0.4309 and best overall score -534.303
+At mcmc repetition 1/1, step 500000: best tree score -534.303 and best beta 0.4309 and best overall score -534.303
+At mcmc repetition 1/1, step 600000: best tree score -534.303 and best beta 0.4309 and best overall score -534.303
+At mcmc repetition 1/1, step 700000: best tree score -534.303 and best beta 0.4309 and best overall score -534.303
+At mcmc repetition 1/1, step 800000: best tree score -534.303 and best beta 0.4309 and best overall score -534.303
+best log score for tree:	-534.30279004082729
+#optimal steps after burn-in:	0
+total #steps after burn-in:	675000
+%optimal steps after burn-in:	0
+samples from posterior written to: processed_UPN_6841136_03132020_20220507111251.samples
+1 opt trees 
+Time elapsed: 429660 ms
+
+
+PS:
+
+Read file <SCITE_RUN_RENEWED_err.log> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@cdragon329.cm.cluster>
+Subject: Job 14976562: <tsvTK_to_SCITE.sh data/UPN_6841136_10112019.allvariants.genotype_modified.multicores.anno.filt.driver.header._KT_table.txt> in cluster <seadragon_cluster> Done
+
+Job <tsvTK_to_SCITE.sh data/UPN_6841136_10112019.allvariants.genotype_modified.multicores.anno.filt.driver.header._KT_table.txt> was submitted from host <ldragon2.cm.cluster> by user <huryu> in cluster <seadragon_cluster> at Fri May  6 23:57:33 2022
+Job was executed on host(s) <cdragon329.cm.cluster>, in queue <medium>, as user <huryu> in cluster <seadragon_cluster> at Sat May  7 12:14:19 2022
+</home/huryu> was used as the home directory.
+</rsrch3/home/leuk-rsrch/huryu/Dir_ProcessForOtherMember/Dr_Tanaka/SCITE_RUN_For_Tapestri/Curtis_Data/Feb_28_2022/test_dir> was used as the working directory.
+Started at Sat May  7 12:14:19 2022
+Terminated at Sat May  7 12:16:44 2022
+Results reported at Sat May  7 12:16:44 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+tsvTK_to_SCITE.sh data/UPN_6841136_10112019.allvariants.genotype_modified.multicores.anno.filt.driver.header._KT_table.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   141.63 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     150.00 GB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   145 sec.
+    Turnaround time :                            44351 sec.
+
+The output (if any) follows:
+
+TSV file name: UPN_6841136_10112019.allvariants.genotype_modified.multicores.anno.filt.driver.header._KT_table.txt
+prefix_timeID: UPN_6841136_10112019_20220507121420
+
+Python part
+Main code
+At mcmc repetition 1/1, step 0: best tree score -1.79769e+308 and best beta 0.4309 and best overall score -1.79769e+308
+At mcmc repetition 1/1, step 100000: best tree score -142.785 and best beta 0.4309 and best overall score -142.785
+At mcmc repetition 1/1, step 200000: best tree score -142.785 and best beta 0.4309 and best overall score -142.785
+At mcmc repetition 1/1, step 300000: best tree score -142.785 and best beta 0.4309 and best overall score -142.785
+At mcmc repetition 1/1, step 400000: best tree score -142.785 and best beta 0.4309 and best overall score -142.785
+At mcmc repetition 1/1, step 500000: best tree score -142.785 and best beta 0.4309 and best overall score -142.785
+At mcmc repetition 1/1, step 600000: best tree score -142.785 and best beta 0.4309 and best overall score -142.785
+At mcmc repetition 1/1, step 700000: best tree score -142.785 and best beta 0.4309 and best overall score -142.785
+At mcmc repetition 1/1, step 800000: best tree score -142.785 and best beta 0.4309 and best overall score -142.785
+best log score for tree:	-142.78478225238737
+#optimal steps after burn-in:	0
+total #steps after burn-in:	675000
+%optimal steps after burn-in:	0
+samples from posterior written to: processed_UPN_6841136_10112019_20220507121420.samples
+1 opt trees 
+Time elapsed: 137490 ms
+
+
+PS:
+
+Read file <SCITE_RUN_RENEWED_err.log> for stderr output of this job.
+
