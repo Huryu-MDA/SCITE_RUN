@@ -26,7 +26,7 @@ df = pd.read_csv(target_tsv,sep ="\t")
 
 #Var_annot = ["Chr", "Start", "End", "Ref", "Alt", 
 Var_annot = ["chr", "start", "ref", "alt", 
-             "Func.knownGene", "Gene.knownGene", "GeneDetail.knownGene", "ExonicFunc.knownGene"]
+             "Func.knownGene", "Gene.knownGene", "GeneDetail.knownGene", "ExonicFunc.knownGene", "AAChange.knownGene"]
 df_var = df[Var_annot].copy()
 
 cell_list = [col for col in df.columns if (col != "KT") and (set(df[col]) <= GT_set)]
@@ -41,5 +41,6 @@ for cell_name in cell_list:
     print(cell_name, file=open(output_sampleList, "a"))
     
 df_var.to_csv(output_VariantList, sep = "\t", index = False, header = False)
-df_var["Gene.knownGene"].to_csv(PutativeGeneList, sep = "\t", index = False, header = False)
+#df_var["Gene.knownGene"].to_csv(PutativeGeneList, sep = "\t", index = False, header = False)
+df_var["AAChange.knownGene"].to_csv(PutativeGeneList, sep = "\t", index = False, header = False)
 print(str(var_num) + "\t" + str(sample_num), file=open(output_NxM, "w"))
